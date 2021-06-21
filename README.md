@@ -4,19 +4,18 @@ This is probably the simpliest websocket client , built on [WebSocket API](https
 
 ## How to use
 
-Create file filename.html with only text in it:
+Create file filename.html with the following link in it:
 
 ``` html
 <script src="https://cdn.jsdelivr.net/gh/igoosham/basic-websocket-client/browserws.js"></script>
 ```
-
-open devTools and type in console:
+run it in browser you use for tests, open devTools and type in console:
 
 ``` javascript
 ws.url('wss://echo.websocket.org').send("hello world")
 ```
 
-you will see: 
+you should see: 
 
 ![echo-sample](/images/echo-sample.png)
 
