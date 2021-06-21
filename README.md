@@ -18,5 +18,5 @@ ws.url('wss://echo.websocket.org').send("hello world")
 
 you will see: 
 
-
+![echo-sample](/images/echo-sample.png)
 
