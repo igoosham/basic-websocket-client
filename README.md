@@ -22,9 +22,7 @@ you should see:
 In two words what's going on is 
 
 Browserws creates and injects object ws in your window (yes it's bad to pollute the global scope, but we are here for a quick test, ok).
-Then you've set desire url and tell the socket to send "hello world" text to the server.
-
-So why I see this "the connection is not yet open... bla bla bla"?
+Then you've set server url and tell the socket to send "hello world" text to the server.
 
 Opening connection as you know takes some time, but in this example we chained send request. So browserws just stores the request till connection will open and warns you about it.
 
