@@ -19,7 +19,7 @@ you should see:
 
 ![echo-sample](/images/echo-sample.png)
 
-What's going on? 
+In two words what's going on is 
 
 Browserws creates and injects object ws in your window (yes I do know it's bad to pollute the global scope), you've set desire url and tell the socket to send "hello world" text to the server.
 
