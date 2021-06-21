@@ -24,7 +24,7 @@ In two words what's going on is
 Browserws creates and injects object ws in your window (yes it's bad to pollute the global scope, but we are here for a quick test, ok).
 Then you've set server url and tell the socket to send "hello world" text to the server.
 
-Opening connection as you know takes some time, but in this example we chained send request. So browserws just stores the request till connection will open and warns you about it.
+Do not worry when u will se that "connection is not open..." Opening connection as you know takes some time, but in this example we chained send request. So browserws just stores the request till connection will open and warns you about it.
 
 After some mills connection opens and we see corresponding warning.
 
