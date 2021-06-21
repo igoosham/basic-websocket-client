@@ -6,7 +6,9 @@ This is probably the simpliest websocket client , built on [WebSocket API](https
 
 Create file filename.html with only text in it:
 
+``` html
 <script src="https://cdn.jsdelivr.net/gh/igoosham/basic-websocket-client/browserws.js"></script>
+```
 
 open devTools and type in console:
 
@@ -15,4 +17,6 @@ ws.url('wss://echo.websocket.org').send("hello world")
 ```
 
 you will see: 
+
+
 
