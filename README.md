@@ -32,4 +32,4 @@ Browserws checks for cashed send requests and send them immediately.
 
 Client's data sent to server starts with client:, severs answers with server:
 
-To make it little bit easier to understand what is going on in console client's text are logged as red, server's as green and browserws's warnings as yellow.
+For easier understanding I decided to highlight text with color as well, so what is going on in console client's text is logged as red, server's as green and browserws's warnings as yellow.
