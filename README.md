@@ -34,6 +34,19 @@ Client's data sent to server starts with client:, severs answers with server:
 
 For easier understanding I decided to highlight text with color as well, so what is going on in console client's text is logged as red, server's as green and browserws's warnings as yellow.
 
-## API
+## Documentation
+
+**cash()** - logs array of cashed messages in console.
+
+**chaining(boolean)** - enables/disables chaining.
+
+**close()** - closes socket connection.
+
+**local(number)** - similar to **url()** sets server url and makes connection attempt, but unlike **url()** makes it as ws://localhost:${number}/ 
+                    e.g. ws.local(8086) sets server url to ws://localhost:8086/.
+                    
+**send(any)** - sends data to server. Can be invoked immediately after **url(string)** or **local(number)** as if connection still in opening state data will be cashed and send                 immediately after connection opens.
+
+**url(string)** - sets server url and makes connection attempt.
 
 
