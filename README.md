@@ -7,7 +7,7 @@ This is probably the simpliest websocket client , built on [WebSocket API](https
 Create file filename.html with the following link in it:
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/igoosham/basic-websocket-client/browserws.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/igoosham/basic-websocket-client/browserws.min.js"></script>
 ```
 run it in browser you use for tests, open devTools and type in console:
 
@@ -33,3 +33,7 @@ Browserws checks for cashed send requests and send them immediately.
 Client's data sent to server starts with client:, severs answers with server:
 
 For easier understanding I decided to highlight text with color as well, so what is going on in console client's text is logged as red, server's as green and browserws's warnings as yellow.
+
+## API
+
+
